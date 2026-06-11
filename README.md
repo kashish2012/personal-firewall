@@ -1,4 +1,4 @@
-# 🔥 Personal Firewall — Cybersecurity Internship Project
+# 🔥 Personal Firewall: Network Security & Traffic Monitor
 
 A Python-based personal firewall that **monitors, filters, and analyses** network traffic using raw socket packet capture, a priority-based rule engine, and a real-time terminal dashboard.
 
