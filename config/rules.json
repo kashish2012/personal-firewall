@@ -1,0 +1,96 @@
+{
+  "rules": [
+    {
+      "name": "block-telnet",
+      "priority": 1,
+      "action": "BLOCK",
+      "protocol": "TCP",
+      "dst_port": 23,
+      "comment": "Telnet is unencrypted — always block"
+    },
+    {
+      "name": "block-rdp-external",
+      "priority": 2,
+      "action": "BLOCK",
+      "protocol": "TCP",
+      "dst_port": 3389,
+      "comment": "Block RDP from external IPs (brute-force risk)"
+    },
+    {
+      "name": "block-suspicious-high-port",
+      "priority": 3,
+      "action": "BLOCK",
+      "src_ip": "203.0.113.42",
+      "comment": "Known suspicious IP"
+    },
+    {
+      "name": "allow-https",
+      "priority": 10,
+      "action": "ALLOW",
+      "protocol": "TCP",
+      "dst_port": 443,
+      "comment": "Allow HTTPS traffic"
+    },
+    {
+      "name": "allow-http",
+      "priority": 11,
+      "action": "ALLOW",
+      "protocol": "TCP",
+      "dst_port": 80,
+      "comment": "Allow HTTP traffic"
+    },
+    {
+      "name": "allow-dns",
+      "priority": 12,
+      "action": "ALLOW",
+      "protocol": "UDP",
+      "dst_port": 53,
+      "comment": "Allow DNS lookups"
+    },
+    {
+      "name": "allow-ssh-lan",
+      "priority": 13,
+      "action": "ALLOW",
+      "protocol": "TCP",
+      "dst_port": 22,
+      "comment": "Allow SSH (local network)"
+    },
+    {
+      "name": "allow-icmp",
+      "priority": 14,
+      "action": "ALLOW",
+      "protocol": "ICMP",
+      "comment": "Allow ping/ICMP"
+    },
+    {
+      "name": "allow-smtp",
+      "priority": 15,
+      "action": "ALLOW",
+      "protocol": "TCP",
+      "dst_port": 25,
+      "comment": "Allow outbound email"
+    },
+    {
+      "name": "allow-mysql-internal",
+      "priority": 16,
+      "action": "ALLOW",
+      "protocol": "TCP",
+      "dst_port": 3306,
+      "comment": "Allow MySQL from internal"
+    },
+    {
+      "name": "allow-smb-internal",
+      "priority": 17,
+      "action": "ALLOW",
+      "protocol": "TCP",
+      "dst_port": 445,
+      "comment": "Allow SMB file sharing internally"
+    },
+    {
+      "name": "default-allow",
+      "priority": 99,
+      "action": "ALLOW",
+      "comment": "Default: allow everything not explicitly blocked"
+    }
+  ]
+}

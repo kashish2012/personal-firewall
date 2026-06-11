@@ -1,0 +1,27 @@
+2026-06-10 10:17:22,936 [INFO] Loaded 12 firewall rules.
+2026-06-10 10:17:22,937 [INFO] [ALLOW] TCP 45.33.32.156:59077→:21 → 192.168.1.10 (rule: default-allow)
+2026-06-10 10:17:22,987 [INFO] [ALLOW] TCP 45.33.32.156:58775→:22 → 192.168.1.10 (rule: allow-ssh-lan)
+2026-06-10 10:17:23,037 [WARNING] [BLOCK] TCP 45.33.32.156:45820→:23 → 192.168.1.10 (rule: block-telnet)
+2026-06-10 10:17:23,088 [INFO] [ALLOW] TCP 45.33.32.156:44231→:25 → 192.168.1.10 (rule: allow-smtp)
+2026-06-10 10:17:23,138 [INFO] [ALLOW] TCP 45.33.32.156:45624→:53 → 192.168.1.10 (rule: default-allow)
+2026-06-10 10:17:23,188 [INFO] [ALLOW] TCP 45.33.32.156:41633→:80 → 192.168.1.10 (rule: allow-http)
+2026-06-10 10:17:23,238 [INFO] [ALLOW] TCP 45.33.32.156:50040→:110 → 192.168.1.10 (rule: default-allow)
+2026-06-10 10:17:23,289 [INFO] [ALLOW] TCP 45.33.32.156:58684→:143 → 192.168.1.10 (rule: default-allow)
+2026-06-10 10:17:23,339 [INFO] [ALLOW] TCP 45.33.32.156:50697→:443 → 192.168.1.10 (rule: allow-https)
+2026-06-10 10:17:23,389 [INFO] [ALLOW] TCP 45.33.32.156:54570→:445 → 192.168.1.10 (rule: allow-smb-internal)
+2026-06-10 10:17:23,440 [INFO] [ALLOW] TCP 45.33.32.156:49178→:3306 → 192.168.1.10 (rule: allow-mysql-internal)
+2026-06-10 10:17:23,490 [WARNING] [BLOCK] TCP 45.33.32.156:57570→:3389 → 192.168.1.10 (rule: block-rdp-external)
+2026-06-10 10:17:23,540 [INFO] [ALLOW] TCP 45.33.32.156:44286→:5432 → 192.168.1.10 (rule: default-allow)
+2026-06-10 10:17:23,590 [INFO] [ALLOW] TCP 45.33.32.156:58114→:6379 → 192.168.1.10 (rule: default-allow)
+2026-06-10 10:17:23,641 [INFO] [ALLOW] TCP 45.33.32.156:41695→:8080 → 192.168.1.10 (rule: default-allow)
+2026-06-10 10:17:23,691 [INFO] [ALLOW] TCP 45.33.32.156:55382→:8443 → 192.168.1.10 (rule: default-allow)
+2026-06-10 16:01:00,467 [INFO] Loaded 12 firewall rules.
+2026-06-10 16:02:14,380 [INFO] Loaded 12 firewall rules.
+2026-06-10 16:02:49,961 [INFO] Loaded 12 firewall rules.
+2026-06-10 16:03:28,221 [INFO] Loaded 12 firewall rules.
+2026-06-10 16:06:00,258 [INFO] Loaded 12 firewall rules.
+2026-06-10 16:35:40,139 [INFO] Loaded 12 firewall rules.
+2026-06-10 16:38:14,176 [INFO] Loaded 12 firewall rules.
+2026-06-10 17:04:11,806 [INFO] Loaded 12 firewall rules.
+2026-06-11 16:46:56,846 [INFO] Loaded 12 firewall rules.
+2026-06-11 16:56:55,124 [INFO] Loaded 12 firewall rules.

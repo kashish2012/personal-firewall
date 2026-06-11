@@ -1,0 +1,6 @@
+# Personal Firewall — Python Dependencies
+# Core functionality has zero external deps (uses stdlib only).
+# rich is OPTIONAL — gives a colourful terminal dashboard.
+
+rich>=13.0.0        # Beautiful terminal UI (optional but recommended)
+pytest>=7.0.0       # For running unit tests

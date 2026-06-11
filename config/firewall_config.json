@@ -1,0 +1,8 @@
+{
+  "rules_path": "config/rules.json",
+  "log_path": "logs/firewall.log",
+  "log_level": "INFO",
+  "capture_interface": null,
+  "max_log_entries": 10000,
+  "stats_interval_seconds": 10
+}
